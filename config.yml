@@ -98,9 +98,9 @@ consume:
       - ' '
       - '&2&l[!] Primeiro player que &cComer &2&l%num% %item% vai ganhar!!'
       - ' '
-    winner: '&2&l%player% venceu o &2&ldesafio&r de &cComer&2&l!!'
+    winner: '&2&l%player% venceu o &2&ldesafio de &cComer&2&l!!'
     bossbar: '&2&l[!] Primeiro player que &cComer &2&l%num% %item% vai ganhar!!'
-    none: '&c&lNinguém ganhou o &2&ldesafio&r de &cComer&2&l!!'
+    none: '&c&lNinguém ganhou o &2&ldesafio de &cComer&2&l!!'
 blockbreak:
   items:
     - 'STONE'
@@ -163,9 +163,9 @@ blockbreak:
       - ' '
       - '&2&l[!] Primeiro player a &cQuebrar &2&l%num% %item% vai ganhar!!'
       - ' '
-    winner: '&2&l%player% venceu o &2&ldesafio&r de &cQuebrar&2&l!!'
+    winner: '&2&l%player% venceu o &2&ldesafio de &cQuebrar&2&l!!'
     bossbar: '&2&l[!] Primeiro player a &cQuebrar &2&l%num% %item% vai ganhar!!'
-    none: '&c&lNinguém ganhou o &2&ldesafio&r de &cQuebrar&2&l!!'
+    none: '&c&lNinguém ganhou o &2&ldesafio de &cQuebrar&2&l!!'
 dropitem:
   items:
     - 'DIAMOND_PICKAXE'
@@ -263,9 +263,9 @@ fish:
       - ' '
       - '&2&l[!] Primeiro player a &cPescar &2&l%num% %item% vai ganhar!!'
       - ' '
-    winner: '&2&l%player% ganhou o &2&ldesafio&r de &cPescar&2&l!!'
+    winner: '&2&l%player% ganhou o &2&ldesafio de &cPescar&2&l!!'
     bossbar: '&2&l[!] Primeiro player a &cPescar &2&l%num% %item% vai ganhar!!'
-    none: '&c&lNinguém ganhou o &2&ldesafio&r de &cPescar&2&l!!'
+    none: '&c&lNinguém ganhou o &2&ldesafio de &cPescar&2&l!!'
 craft:
   items:
     - 'OAK_PLANKS'
@@ -325,9 +325,9 @@ craft:
       - ' '
       - '&2&l[!] Primeiro player a &cCraftar &2&l%num% %item% vai ganhar!!'
       - ' '
-    winner: '&2&l%player% ganhou o &2&ldesafio&r de &cCraftar&2&l!!'
+    winner: '&2&l%player% ganhou o &2&ldesafio de &cCraftar&2&l!!'
     bossbar: '&2&l[!] Primeiro player a &cCraftar &2&l%num% %item% vai ganhar!!'
-    none: '&c&lNinguém ganhou o &2&ldesafio&r de &cCraftar&2&l!!'
+    none: '&c&lNinguém ganhou o &2&ldesafio de &cCraftar&2&l!!'
 forge:
   items:
     - 'IRON_INGOT'
@@ -369,9 +369,9 @@ forge:
       - ' '
       - '&2&l[!] Primeiro player a &cForjar &2&l%num% %item% vai ganhar!!'
       - ' '
-    winner: '&2&l%player% ganhou o &2&ldesafio&r de &cForjar&2&l!!'
+    winner: '&2&l%player% ganhou o &2&ldesafio de &cForjar&2&l!!'
     bossbar: '&2&l[!] Primeiro player a &cForjar &2&l%num% %item% vai ganhar!!'
-    none: '&c&lNinguém ganhou o &2&ldesafio&r de &cForjar&2&l!!'
+    none: '&c&lNinguém ganhou o &2&ldesafio de &cForjar&2&l!!'
 kill:
   items:
     - 'zombie'
@@ -419,24 +419,24 @@ kill:
       - ' '
       - '&2&l[!] Primeiro player a &cMatar &2&l%num% %item% vai ganhar!!'
       - ' '
-    winner: '&2&l%player% ganhou o &2&ldesafio&r de &cMatar Mobs&2&l!!'
+    winner: '&2&l%player% ganhou o &2&ldesafio de &cMatar Mobs&2&l!!'
     bossbar: '&2&l[!] Primeiro player a &cMatar &2&l%num% %item% vai ganhar!!'
-    none: '&c&lNinguém ganhou o &2&ldesafio&r de &cMatar Mobs&2&l!!'
+    none: '&c&lNinguém ganhou o &2&ldesafio de &cMatar Mobs&2&l!!'
     
 mini:
   items:
-    - 'JUMP'
-    - 'BELL_RING'
-    - 'ANIMALS_BRED'
-    - 'CAKE_SLICES_EATEN'
-    - 'CAULDRON_FILLED'
-    - 'CHEST_OPENED'
-    - 'NOTEBLOCK_TUNED'
-    - 'FLOWER_POTTED'
-    - 'TRADED_WITH_VILLAGER'
-    - 'DISPENSER_INSPECTED'
-    - 'DROPPER_INSPECTED'
-    - 'ENDERCHEST_OPENED'
+    - 'Luan'
+    - 'Luan'
+    - 'Luan'
+    - 'Luan'
+    - 'Luan'
+    - 'Luan'
+    - 'Luan'
+    - 'Luan'
+    - 'Luan'
+    - 'Luan'
+    - 'Luan'
+    - 'Luan'
   reward:
     - 'eco give %player% 100'
   min: 1
@@ -459,9 +459,9 @@ mini:
       - ' '
       - '&2&l[!] Primeiro player a &c%item% &2&l%num% vezes vai ganhar!!'
       - ' '
-    winner: '&2&l%player% ganhou o &2&ldesafio&r &c%item%&2&l!!'
+    winner: '&2&l%player% ganhou o &2&ldesafio &c%item%&2&l!!'
     bossbar: '&2&l[!] Primeiro player a &c%item% &2&l%num% vezes vai ganhar!!'
-    none: '&c&lNinguém ganhou o &2&ldesafio&r de &cmini&2&l!!'
+    none: '&c&lNinguém ganhou o &2&ldesafio de &cmini&2&l!!'
     
 damage:
   items:
@@ -501,9 +501,9 @@ damage:
       - ' '
       - '&2&l[!] Primeiro player que &cTomar Dano &2&l%num% vezes de %item% vai ganhar!!'
       - ' '
-    winner: '&2&l%player% ganhou o &2&ldesafio&r de &cDano&2&l!!'
+    winner: '&2&l%player% ganhou o &2&ldesafio de &cDano&2&l!!'
     bossbar: '&2&l[!] Primeiro player que &cTomar Dano &2&l%num% vezes de %item% vai ganhar!!'
-    none: '&c&lNinguém ganhou o &2&ldesafio&r de &cDano&2&l!!'    
+    none: '&c&lNinguém ganhou o &2&ldesafio de &cDano&2&l!!'    
 
 trivia:
 # faça todas as respostas em lower case para funfar!!!!!!!
@@ -519,9 +519,9 @@ trivia:
       - ' '
       -  '&2&l[!]&cCuriosidades&2&l %item% '
       - ' '
-    winner: '&2&l%player% ganhou o &2&ldesafio&r de &cCuriosidades&2&l!!'
+    winner: '&2&l%player% ganhou o &2&ldesafio de &cCuriosidades&2&l!!'
     bossbar: '&2&l[!]&cCuriosidades&2&l %item% '
-    none: '&c&lNinguém ganhou o &2&ldesafio&r de &cCuriosidades&2&l!!'
+    none: '&c&lNinguém ganhou o &2&ldesafio de &cCuriosidades&2&l!!'
 1:
   Q: 'what is the server name?'
   A:
@@ -563,6 +563,6 @@ obsidian:
       - ' '
       - '&2&l[!] Primeiro player a &cQuebrar &2&l%num% obsidian vai ganhar!!'
       - ' '
-    winner: '&2&l%player% venceu o &2&ldesafio&r &cCorrida das obsidianas&2&l!!'
+    winner: '&2&l%player% venceu o &2&ldesafio &cCorrida das obsidianas&2&l!!'
     bossbar: '&2&l[!] Primeiro player a &cQuebrar &2&l%num% obsidian vai ganhar!!'
-    none: '&c&lNinguém ganhou o &2&ldesafio&r de &cCorrida das obsidianas&2&l!!'
+    none: '&c&lNinguém ganhou o &2&ldesafio de &cCorrida das obsidianas&2&l!!'
